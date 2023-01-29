@@ -1,0 +1,16 @@
+.box {
+	height: var(--slot-size);
+	width: var(--slot-size);
+	background-color: #919191;
+	box-shadow: 2px 2px 0 2px #e8e8e8, -2px -2px 0 2px #555, 0 0 0 4px #8b8b8b;
+}
+
+.box:hover {
+	background-color: #c3c3c3;
+}
+
+@media (max-width: 600px) {
+	.box {
+		box-shadow: 1px 1px 0 1px #e8e8e8, -1px -1px 0 1px #555, 0 0 0 2px #8b8b8b;
+	}
+}
